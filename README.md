@@ -4,7 +4,7 @@
 ### **Live URL (Azure App Service in conjunction with GitHub CI) :**  
 https://ashy-hill-05db75410.1.azurestaticapps.net/  
 
-####(THE underlying API/Swagger WORKS ON:  
+#### (The underlying API/Swagger works on:  
 https://oria3.azurewebsites.net/swagger/index.html)  
 
    
