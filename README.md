@@ -1,6 +1,14 @@
 # CoralSoft_Test1
 
-### Technologies used :  
+
+### **Live URL (Azure App Service in conjunction with GitHub CI) :**  
+https://ashy-hill-05db75410.1.azurestaticapps.net/  
+
+(THE API/Swagger WORKS ON:  
+https://oria4.azurewebsites.net/swagger/index.html)  
+
+   
+### **Elements, technologies and/or paradigms used in this tester :**  
 Server Side - *.NET 6.0*  
 Client Side - *REACT*  
 
