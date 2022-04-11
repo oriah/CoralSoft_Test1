@@ -6,7 +6,7 @@ import { Filter } from './cmps/Filter';
 import './assets/styles/style.scss';
 
 function App() {
-  const ITEMS_PER_PAGE = 10;
+  const ITEMS_PER_PAGE = 12;
   const [currIndex, setCurrIndex] = useState(0);
   const [items, setItems] = useState([]);
   const [criteria, setCriteria] = useState({
@@ -22,7 +22,10 @@ function App() {
     try {
       const data = await apiService.get(ITEMS_PER_PAGE, currIndex);
       setCurrIndex(currIndex + ITEMS_PER_PAGE);
-      setItems([...items, ...data]);
+      setItems((prevState) => ([
+        ...prevState,
+        ...data
+      ]));
     } catch (e) {
       console.log(e);
     }

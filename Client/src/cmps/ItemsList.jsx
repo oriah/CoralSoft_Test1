@@ -1,11 +1,9 @@
 import { Item } from "./Item";
-import InfiniteScroll from 'react-infinite-scroll-component';
-
+import InfiniteScroll from 'react-infinite-scroller';
 export function ItemsList({ items, fetchMoreData }) {
     return (
         <InfiniteScroll
-            dataLength={items.length}
-            next={fetchMoreData}
+            loadMore={fetchMoreData}
             className="items-list grid"
             hasMore={true}
             loader={<h4 key="loader">Loading...</h4>}
