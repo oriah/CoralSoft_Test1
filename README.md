@@ -7,10 +7,10 @@ CLIENT SIDE- REACT
 
 ### HOW TO RUN:
 
-server side - run in visual studio IDE (2022)
-client side- run in visual studio code :   'npm start'
+server side - run in visual studio IDE (2022)  
+client side- run in visual studio code :   'npm start'  
 
-**ENJOY !**
-
-
+**ENJOY !**  
+  
+  
 **To be clear:  I Wrote every piece of code of the system with no exceptions (NO COPY-PASTE)
