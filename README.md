@@ -22,6 +22,3 @@ client side- run in visual studio code :   'npm start'
   
   
 **To be clear:  I Wrote every piece of code of the system with no exceptions (NO COPY-PASTE)
-
-
-**Ori Ahdout.**
