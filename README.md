@@ -1,8 +1,8 @@
 # CoralSoft_Test1
 
-### Technologies used : 
-SERVER SIDE- .NET 6.0
-CLIENT SIDE- REACT
+### Technologies used :  
+SERVER SIDE- .NET 6.0  
+CLIENT SIDE- REACT  
 
 
 ### HOW TO RUN:
