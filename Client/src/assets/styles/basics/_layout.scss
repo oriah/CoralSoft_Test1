@@ -1,0 +1,11 @@
+.main-layout {
+    padding: 0 15px;
+    @media (min-width: $narrow-breakpoint) {
+        max-width:  $narrow-breakpoint;
+        padding: 0;
+        margin: 0 auto;
+    }
+    @media (min-width: $normal-breakpoint) {
+        max-width:  $normal-breakpoint;
+    }
+}

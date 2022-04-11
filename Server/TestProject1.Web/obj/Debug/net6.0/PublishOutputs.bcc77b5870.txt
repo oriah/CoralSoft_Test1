@@ -1,0 +1,14 @@
+d:\WorkDrive\TFS\CoralSoft\Test1\Source\TestProject1\TestProject1.Web\obj\Debug\net6.0\PubTmp\Out\TestProject1.Web.exe
+d:\WorkDrive\TFS\CoralSoft\Test1\Source\TestProject1\TestProject1.Web\obj\Debug\net6.0\PubTmp\Out\appsettings.Development.json
+d:\WorkDrive\TFS\CoralSoft\Test1\Source\TestProject1\TestProject1.Web\obj\Debug\net6.0\PubTmp\Out\appsettings.json
+d:\WorkDrive\TFS\CoralSoft\Test1\Source\TestProject1\TestProject1.Web\obj\Debug\net6.0\PubTmp\Out\TestProject1.Web.dll
+d:\WorkDrive\TFS\CoralSoft\Test1\Source\TestProject1\TestProject1.Web\obj\Debug\net6.0\PubTmp\Out\TestProject1.Web.deps.json
+d:\WorkDrive\TFS\CoralSoft\Test1\Source\TestProject1\TestProject1.Web\obj\Debug\net6.0\PubTmp\Out\TestProject1.Web.runtimeconfig.json
+d:\WorkDrive\TFS\CoralSoft\Test1\Source\TestProject1\TestProject1.Web\obj\Debug\net6.0\PubTmp\Out\TestProject1.Web.pdb
+d:\WorkDrive\TFS\CoralSoft\Test1\Source\TestProject1\TestProject1.Web\obj\Debug\net6.0\PubTmp\Out\System.Net.Http.Formatting.dll
+d:\WorkDrive\TFS\CoralSoft\Test1\Source\TestProject1\TestProject1.Web\obj\Debug\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+d:\WorkDrive\TFS\CoralSoft\Test1\Source\TestProject1\TestProject1.Web\obj\Debug\net6.0\PubTmp\Out\Newtonsoft.Json.dll
+d:\WorkDrive\TFS\CoralSoft\Test1\Source\TestProject1\TestProject1.Web\obj\Debug\net6.0\PubTmp\Out\Newtonsoft.Json.Bson.dll
+d:\WorkDrive\TFS\CoralSoft\Test1\Source\TestProject1\TestProject1.Web\obj\Debug\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+d:\WorkDrive\TFS\CoralSoft\Test1\Source\TestProject1\TestProject1.Web\obj\Debug\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+d:\WorkDrive\TFS\CoralSoft\Test1\Source\TestProject1\TestProject1.Web\obj\Debug\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll

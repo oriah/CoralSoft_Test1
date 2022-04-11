@@ -1,0 +1,9 @@
+.items-list {
+    grid-template-columns: "1fr";
+    @media (min-width: $narrow-breakpoint) {
+        grid-template-columns: 1fr 1fr;
+    }
+    @media (min-width: $normal-breakpoint) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
