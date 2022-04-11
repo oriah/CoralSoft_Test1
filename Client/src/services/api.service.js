@@ -5,5 +5,5 @@ export const apiService = {
 }
 
 async function get(itemsPerPage, from) {
-    return await httpService.get('get', {itemsPerPage, from});
+    return await httpService.get('data/page', {itemsPerPage, from});
 }

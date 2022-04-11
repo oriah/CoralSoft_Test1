@@ -1,8 +1,8 @@
 import Axios from 'axios'
 
 const BASE_URL = process.env.NODE_ENV === 'production'
-    ? '/api/'
-    : '//localhost:3030/api/'
+    ? 'https://oria3.azurewebsites.net/api/'
+    : 'https://oria3.azurewebsites.net/api/'
 
 
 var axios = Axios.create({

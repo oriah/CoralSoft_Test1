@@ -1,0 +1,13 @@
+.App {
+    .top {
+        flex-direction: column;
+        margin-bottom: 15px;
+        
+        @media (min-width: $narrow-breakpoint) {
+            flex-direction: row;
+        }
+        .filter {
+            flex-grow: 1;
+        }
+    }
+}

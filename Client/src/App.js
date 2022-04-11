@@ -1,7 +1,8 @@
-import { useState, useEffect, useMemo } from "react"
-import { apiService } from "./services/api.service";
-import { ItemsList } from "./cmps/ItemsList";
-import { SortBy } from "./cmps/SortBy";
+import { useState, useEffect, useMemo } from 'react';
+import { apiService } from './services/api.service';
+import { ItemsList } from './cmps/ItemsList';
+import { SortBy } from './cmps/SortBy';
+import { Filter } from './cmps/Filter';
 import './assets/styles/style.scss';
 
 function App() {
@@ -13,15 +14,15 @@ function App() {
     filter: ''
   });
 
-  useEffect(async () => {
+  useEffect(() => {
     fetchMoreData();
   }, [])
 
-  const fetchMoreData = () => {
+  const fetchMoreData = async () => {
     try {
       const data = await apiService.get(ITEMS_PER_PAGE, currIndex);
       setCurrIndex(currIndex + ITEMS_PER_PAGE);
-      setItems(data);
+      setItems([...items, ...data]);
     } catch (e) {
       console.log(e);
     }
@@ -39,18 +40,18 @@ function App() {
     setCriteria(newCriteria);
   }
 
-  const getItemsUsingCriteria = useMemo(() => {
+  const getItemsUsingCriteria = useMemo(() => () => {
     let data = [...items];
     if (criteria.sortBy === 'ASC') {
       data = data.sort((a, b) => {
-        if (a < b) { return -1; }
-        if (a > b) { return 1; }
+        if (a.title < b.title) { return -1; }
+        if (a.title > b.title) { return 1; }
         return 0;
       });
     } else if (criteria.sortBy === 'DESC') {
       data = data.sort((a, b) => {
-        if (a < b) { return 1; }
-        if (a > b) { return -1; }
+        if (a.title < b.title) { return 1; }
+        if (a.title > b.title) { return -1; }
         return 0;
       });
     }
@@ -60,16 +61,16 @@ function App() {
     }
 
     return data;
-  },[criteria, items])
+  }, [criteria, items]);
 
   return (
     <div className="App main-layout">
-      {!data.length && (
+      {items.length === 0 && (
         <div>Loading...</div>
       )}
-      {data.length && (
+      {items.length > 0 && (
         <>
-          <div className="flex">
+          <div className="top flex">
             <Filter q={criteria.filter} onChange={setFilter}></Filter>
             <SortBy sortBy={criteria.sortBy} onChange={setSortBy}></SortBy>
           </div>

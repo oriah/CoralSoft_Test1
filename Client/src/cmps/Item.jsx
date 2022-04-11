@@ -1,8 +1,8 @@
 export function Item({item}) {
     return (
-        <div class="item">
+        <div className="item">
+            <img src={item.url} alt=""/>
             <h5>{item.title}</h5>
-            <img src={item.imgUrl}/>
         </div>
     )
 }

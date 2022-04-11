@@ -1,5 +1,5 @@
-export function Filter({q, onChange}) {
+export function Filter({ q, onChange }) {
     return (
-        <input type="text" placeholder="Filter" value={q} onChange={onChange(this.value)}></input>
+        <input class="filter" type="text" placeholder="Filter" value={q} onChange={(ev) => onChange(ev.target.value)}></input>
     )
 }
